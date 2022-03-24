@@ -12,4 +12,13 @@ touch ./FILE.md
 # Add content to FILE
 git add *
 git commit -m "Commit 0"
+# Commit hash was 61825a6
+```
+
+### Commit 1
+
+```sh
+# Add content to FILE
+git add *
+git commit -m "Commit 1"
 ```
