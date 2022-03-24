@@ -13,3 +13,12 @@ touch ./FILE.md
 git add *
 git commit -m "Commit 0"
 ```
+
+### Commit 3
+
+```sh
+git checkout -b bug-fix 61825a6
+# Add content to FILE
+git add *
+git commit -m "Commit 3"
+```
