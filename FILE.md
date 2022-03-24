@@ -60,4 +60,12 @@ git merge master
 git reflog
 # Add content to FILE
 git commit -am "Commit 5"
+# Commit hash was 2b5582a
+```
+
+### Commit 6
+
+```sh
+# Add content to FILE
+git commit -am "Commit 6"
 ```
