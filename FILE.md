@@ -21,4 +21,13 @@ git commit -m "Commit 0"
 # Add content to FILE
 git add *
 git commit -m "Commit 1"
+# Commit hash was 35f7d8f
+```
+
+### Commit 2
+
+```sh
+# Add content to FILE
+git add *
+git commit -m "Commit 2"
 ```
