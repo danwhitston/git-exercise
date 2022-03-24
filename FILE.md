@@ -31,3 +31,11 @@ git commit -m "Commit 1"
 git add *
 git commit -m "Commit 2"
 ```
+
+### Commit 10
+
+```sh
+git checkout master
+# Add content to FILE
+git commit -am "Commit 10"
+```
