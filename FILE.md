@@ -1,5 +1,9 @@
 # FILE.md
 
+## Graph of commits prior to 'Commit 14'
+
+![Commit graph for this repo](./screenshot-github.com-2022.03.24-10_31_27.png)
+
 ## List of commands to generate this repo
 
 I'm updating the list as I go along.
@@ -134,4 +138,17 @@ git checkout master
 git merge bug-fix
 # Add content to FILE, move Commit 10 to correct place
 git commit -am "Commit 13"
+```
+
+### Commit 14
+
+This commit isn't included in the visualisations.
+
+```sh
+# Create git-exercise repo on GitHub
+# Push git branches to GitHub repo
+# Screenshot the network graph and add to local repo
+# Include screenshot in FILE.md
+# Add content to FILE
+git commit -am "Commit 14"
 ```
