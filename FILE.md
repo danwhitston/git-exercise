@@ -46,4 +46,12 @@ git commit -am "Commit 7"
 ```sh
 # Add content to FILE
 git commit -am "Commit 8"
+# Commit hash was 57b06d7
+```
+
+### Commit 9
+
+```sh
+# Add content to FILE
+git commit -am "Commit 9"
 ```
