@@ -53,7 +53,7 @@ git commit -am "Commit 4"
 
 ### Commit 5
 
-I'm not counting the merge commit from master to bug-fix as a numbered commit.
+I'm not counting merge commits from master to bug-fix as a numbered commit.
 
 ```sh
 git merge master
@@ -96,6 +96,15 @@ git commit -am "Commit 9"
 # Commit hash was d5f57be
 ```
 
+### Commit 10
+
+```sh
+git checkout master
+# Add content to FILE
+git commit -am "Commit 10"
+# Commit hash was 70b7368
+```
+
 ### Commit 11
 
 ```sh
@@ -107,6 +116,7 @@ git commit
 # Accept git merge message
 # Add content to FILE
 git commit -am "Commit 11"
+# Commit hash was cb55df6
 ```
 
 ### Commit 12
@@ -114,12 +124,14 @@ git commit -am "Commit 11"
 ```sh
 # Add content to FILE
 git commit -am "Commit 12"
+# Commit hash was 5b89caa
 ```
 
-### Commit 10
+### Commit 13
 
 ```sh
 git checkout master
-# Add content to FILE
-git commit -am "Commit 10"
+git merge bug-fix
+# Add content to FILE, move Commit 10 to correct place
+git commit -am "Commit 13"
 ```
