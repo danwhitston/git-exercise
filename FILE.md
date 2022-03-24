@@ -29,4 +29,13 @@ git commit -m "Commit 3"
 ```sh
 # Add content to FILE
 git commit -am "Commit 4"
+# Commit hash was b8attempting to create a merge conflict8881
+```
+
+### Commit 7
+
+```sh
+git checkout -b bug-fix-experimental b88881b
+# Add content to FILE, hopefully including a merge conflict
+git commit -am "Commit 7"
 ```
