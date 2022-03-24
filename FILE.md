@@ -21,4 +21,12 @@ git checkout -b bug-fix 61825a6
 # Add content to FILE
 git add *
 git commit -m "Commit 3"
+# Commit hash was bc17048
+```
+
+### Commit 4 
+
+```sh
+# Add content to FILE
+git commit -am "Commit 4"
 ```
