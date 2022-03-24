@@ -30,6 +30,7 @@ git commit -m "Commit 1"
 # Add content to FILE
 git add *
 git commit -m "Commit 2"
+# Commit hash was cee990a
 ```
 
 ### Commit 3
@@ -42,9 +43,21 @@ git commit -m "Commit 3"
 # Commit hash was bc17048
 ```
 
-### Commit 4 
+### Commit 4
 
 ```sh
 # Add content to FILE
 git commit -am "Commit 4"
+# Commit hash was b88881b
+```
+
+### Commit 5
+
+I'm not counting the merge commit from master to bug-fix as a numbered commit.
+
+```sh
+git merge master
+git reflog
+# Add content to FILE
+git commit -am "Commit 5"
 ```
