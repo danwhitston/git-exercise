@@ -108,3 +108,10 @@ git commit
 # Add content to FILE
 git commit -am "Commit 11"
 ```
+
+### Commit 12
+
+```sh
+# Add content to FILE
+git commit -am "Commit 12"
+```
