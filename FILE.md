@@ -93,4 +93,18 @@ git commit -am "Commit 8"
 ```sh
 # Add content to FILE
 git commit -am "Commit 9"
+# Commit hash was d5f57be
+```
+
+### Commit 11
+
+```sh
+git checkout bug-fix
+git merge bug-fix-experimental
+# Fix merge conflicts in editor
+git add FILE.md
+git commit
+# Accept git merge message
+# Add content to FILE
+git commit -am "Commit 11"
 ```
