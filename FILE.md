@@ -68,4 +68,29 @@ git commit -am "Commit 5"
 ```sh
 # Add content to FILE
 git commit -am "Commit 6"
+# Commit hash was 7eff28f
+```
+
+### Commit 7
+
+```sh
+git checkout -b bug-fix-experimental b88881b
+# Add content to FILE, hopefully including a merge conflict
+git commit -am "Commit 7"
+# Commit hash was 74edfc5
+```
+
+### Commit 8
+
+```sh
+# Add content to FILE
+git commit -am "Commit 8"
+# Commit hash was 57b06d7
+```
+
+### Commit 9
+
+```sh
+# Add content to FILE
+git commit -am "Commit 9"
 ```
